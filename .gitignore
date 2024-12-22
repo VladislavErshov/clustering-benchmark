@@ -1,4 +1,7 @@
 *.class
+*.idea
+*ch2-bench
+*jars
 
 # Package Files #
 *.jar

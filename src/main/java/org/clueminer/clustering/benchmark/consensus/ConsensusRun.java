@@ -161,14 +161,14 @@ public class ConsensusRun implements Runnable {
                 p.putBoolean(KMeansBagging.FIXED_K, true);
                 break;
             case "KmB-CoAssocHAC-MO-avg":
-                p.put(KMeansBagging.CONSENSUS, CoAssociationReduce.name);
+                p.put(KMeansBagging.CONSENSUS, CoAssociationReduce.NAME);
                 p.put(KMeansBagging.INIT_METHOD, "MO");
                 p.put("mo_1", "AIC");
                 p.put("mo_2", "SD index");
                 p.put(AlgParams.LINKAGE, AverageLinkage.name);
                 break;
             case "KmB-CoAssocHAC-MO-AIC_SD":
-                p.put(KMeansBagging.CONSENSUS, CoAssociationReduce.name);
+                p.put(KMeansBagging.CONSENSUS, CoAssociationReduce.NAME);
                 p.put(KMeansBagging.INIT_METHOD, "MO");
                 p.put("mo_1", "AIC");
                 p.put("mo_2", "SD index");
